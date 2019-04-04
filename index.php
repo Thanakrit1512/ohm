@@ -28,8 +28,10 @@ include "web.php";
      </datalist>
      <input type="submit">
    </form>';
-    ?>
    
+    ?>
+   <FORM>
+
         
         
 </body>
