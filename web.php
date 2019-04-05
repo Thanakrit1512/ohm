@@ -15,7 +15,7 @@ ob_start();
 <body background="img/WU.jpg" width="200" height="200">
     <h2><font color = "white"><p align="center">Control Ligth WU</p></font></h2>
    
-        <h1><p align ="right"><font color = "white">:: Login ::</font></p></h1>
+        <h1><p align ="right" ><font color = "white" >:: Login ::</font></p></h1>
         
 
         <section id="content">
@@ -31,15 +31,18 @@ ob_start();
                 exit;
             }
             else {
+                
                  echo '<h4 class="err"><p align ="right"><font color="red">ท่านใส่ user หรือ password ไม่ถูกต้อง!!! </font></p></h4>';}
 
             }
-
+            
             ?></font></p>
             <form method = "post">
+            
             <p align ="right"><input type="text" name="login"placeholder="user" required></p>
             <p align ="right"><input type="password" name="pswd"placeholder="password" required></p>
             <p align ="right"><button>เข้าสู่ระบบ</button></p>
+        
         </form>
         </section>
     
